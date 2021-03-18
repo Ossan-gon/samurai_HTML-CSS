@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML/CSSの練習2</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        #responsive-img {
+            height: auto;
+            width:80vw;
+        }
+        header {
+            background-color: red;
+        }
+        .size {
+            position: relative;
+            top: -5px;
+        }
+        .sort {
+            display: inline-block;
+        }
+    </style>
+</head>
+ <body class="size">
+  <div id="wrapper">
+   <div id="header">
+      <h1><a href="index.html"> <img id="corridor" src="images/corridor.jpg" alt="大学の廊下" /></a></h1>
+   </div>
+    <div  id="nav">
+    　 <ul>
+        <li><a href="home.html">学校生活</a></li>
+        <li><a href="#">学生</a></li>
+        <li><a href="#">サークル</a></li>
+        <li><a href="#">就職支援</a></li>
+        <li><a href="#">その他</a></li>
+       </ul>
+    </div>
+    <div id="container">
+        <div id="main">
+            <div class="post">
+                <p>ここでは対面教育と論理的思考力教育が行われています。<br/>対面教育と論理的思考力教育の詳細を説明します。</p>
+            </div>
+            <div class="post clearfix">
+                <h2>対面教育</h2>
+                <img class="left" src="images/classroom.jpg" alt="授業風景" />
+                <p>
+                    対面教育では生徒の自主性を上げ、将来リーダーとして活躍できる
+                    人材を育成していきます。
+                </p>
+                <p><a href="#">→対面教育の詳細はコチラ</a></p>
+            </div class="post clearfix">
+                <h2>論理的思考力教育</h2>
+                <img class="right" src="images/scale.jpg" alt="天秤" />
+                <p>
+                    論理的思考力教育では、モノの仕組みや考え方を主にする教育です。
+                    将来エンジニアとして必要な資質を養っていきます。
+                </p>
+        </div>
+       <div id="side">
+           <div class="box">
+               <h2>教育支援内容</h2>
+                    <div class="boxBody">
+                        <ul>
+                            <li>対面授業</li>
+                            <li>オンライン授業</li>
+                            <li>訪問授業</li>
+                            <li>ディスカッション教育</li>
+                        </ul>
+                    </div>
+           </div>
+           <div class="box">
+               <h2>就職支援内容</h2>
+                    <div class="boxBody">
+                        <ul>
+                    　　  <li>ジョブマッチ面談</li>
+                    　　  <li>ES添削</li>
+                    　　  <li>OB・OG体験談</li>
+                    　　  <li>面接対策</li>
+                        </ul>
+                　　</div>
+           </div>
+           
+       </div>
+    </div>
+ </div>
+  <div id="footer">
+  <p>&copy; 2021 〇〇 All rights Reserved</p>
+ </div>
+ </body>
+</html>
